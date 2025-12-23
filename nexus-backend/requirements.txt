@@ -1,0 +1,8 @@
+Django>=4.2
+djangorestframework
+psycopg2-binary      # for Postgres in production/local Docker
+python-dotenv or django-environ
+djangorestframework-simplejwt   # JWT auth (optional)
+gunicorn           # production WSGI server
+whitenoise         # static serving in prod
+pytest-django     # for testing
